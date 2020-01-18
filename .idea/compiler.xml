@@ -11,6 +11,7 @@
         <module name="spring-cloud-zuul" />
         <module name="springcloud-config" />
         <module name="springcloud-eureka" />
+        <module name="springcloud-zipkin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -21,6 +22,7 @@
       <module name="springcloud-config" target="1.8" />
       <module name="springcloud-depencies" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,6 +32,7 @@
       <module name="spring-cloud-zuul" options="-parameters" />
       <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
+      <module name="springcloud-zipkin" options="-parameters" />
     </option>
   </component>
 </project>

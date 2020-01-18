@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springcloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-depencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-zuul" charset="UTF-8" />
   </component>
 </project>

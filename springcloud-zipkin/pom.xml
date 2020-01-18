@@ -10,10 +10,10 @@
         <relativePath>../springcloud-depencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>springcloud-zuul</artifactId>
+    <artifactId>springcloud-zipkin</artifactId>
     <packaging>jar</packaging>
 
-    <name>springcloud-zuul</name>
+    <name>springcloud-zipkin</name>
     <url>http://www.funtl.com</url>
     <inceptionYear>2018-Now</inceptionYear>
 
@@ -40,18 +40,22 @@
 
         <!-- Spring Cloud Begin -->
         <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
         <!-- Spring Cloud End -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
     </dependencies>
 
     <build>
@@ -60,7 +64,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.it.hello.spring.cloud.zuul.ZuulApplication</mainClass>
+                    <mainClass>com.it.hello.spring.cloud.zipkin.ZipKinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
