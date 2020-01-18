@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-zuul" />
+        <module name="spring-cloud-service-admin" />
+        <module name="spring-cloud-zuul" />
+        <module name="springcloud-config" />
+        <module name="springcloud-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="hello-spring-cloud-service-admin" target="1.5" />
+      <module name="hello-spring-cloud-zuul" target="1.5" />
+      <module name="spring-cloud-service-admin" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+      <module name="springcloud-config" target="1.8" />
+      <module name="springcloud-depencies" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-spring-cloud-zuul" options="-parameters" />
+      <module name="spring-cloud-service-admin" options="-parameters" />
+      <module name="spring-cloud-zuul" options="-parameters" />
+      <module name="springcloud-config" options="-parameters" />
+      <module name="springcloud-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
