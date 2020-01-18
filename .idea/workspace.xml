@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5102975-4207-4e5c-b544-99697e10ae44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-admin/spring-cloud-service-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-admin/src/main/java/com/it/hello/spring/cloud/service/admin/ServiceAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-service-admin/src/main/resource/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/java/com/it/hello/spring/cloud/config/ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-depencies/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka/src/main/java/com/it/hello/spring/cloud/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul/spring-cloud-zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/it/hello/spring/cloud/zuul/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/respo/application-zuul.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springcloud-depencies/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka/target/" />
@@ -33,13 +17,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-config/src/main/resources/respo/application-zuul.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -153,6 +142,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="respo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +190,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579324558534" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579324939633" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-config/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -177,6 +201,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springcloud-all\springcloud-config\src\main\resources\respo" />
       <recent name="D:\springcloud-all" />
     </key>
   </component>
@@ -257,16 +282,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579317894039</updated>
-      <workItem from="1579317897102" duration="6271000" />
+      <workItem from="1579317897102" duration="6515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6271000" />
+    <option name="totallyTimeSpent" value="6515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="640" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -422,6 +446,9 @@
           <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config/src/main/resources/respo/application-zuul.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
